@@ -13,7 +13,22 @@ elseif exists("b:current_syntax")
 endif
 
 " Qt Namespace
+syn keyword qtNamespace QAlgorithmsPrivate
+syn keyword qtNamespace QDBusPendingReplyTypes
+syn keyword qtNamespace QJsonPrivate
+syn keyword qtNamespace QMdi
+syn keyword qtNamespace QMediaMetaData
+syn keyword qtNamespace QSsl
 syn keyword qtNamespace Qt
+syn keyword qtNamespace QtConcurrent
+syn keyword qtNamespace QtDeclarative
+syn keyword qtNamespace QTest
+syn keyword qtNamespace QtGlobalStatic
+syn keyword qtNamespace QtMetaTypePrivate
+syn keyword qtNamespace QtPrivate
+syn keyword qtNamespace QtQml
+syn keyword qtNamespace QtSharedPointer
+syn keyword qtNamespace QtStringBuilder
 
 
 " Qt Class

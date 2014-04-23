@@ -1364,7 +1364,7 @@ syn keyword qtClass QXmlStreamWriter
 
 
 " Qt Macros
-syn keyword qtAccess signales slots
+syn keyword qtAccess signals slots
 syn keyword qtMacro Q_ASSERT Q_CHECK_PTR Q_OBJECT
 syn keyword qtMacro SIGNAL SLOT
 

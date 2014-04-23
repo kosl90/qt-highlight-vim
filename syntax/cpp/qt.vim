@@ -4,13 +4,6 @@
 " Description: syntax high light for Qt5.1
 " License: MIT License (http://opensource.org/licenses/MIT)
 
-" For version 5.x: Clear all syntax items
-" For version 6.x: Quit when a syntax file was already loaded
-if version < 600
-  syntax clear
-elseif exists("b:current_syntax")
-  finish
-endif
 
 " Qt Namespace
 syn keyword qtNamespace QAlgorithmsPrivate

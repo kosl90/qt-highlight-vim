@@ -1376,11 +1376,13 @@ syn keyword qtEnumType CaseSensitivity
 syn keyword qtEnumValue WaitCursor
 
 " - QIODevice
-syn keyword qtEnumValue WriteOnly ReadOnly
+syn keyword qtEnumValue WriteOnly ReadOnly Text
 
 " - QDataStream
 syn keyword qtEnumValue Qt_4_3
 
+" - QKeySequence
+syn keyword qtEnumValue Open Save
 
 " Qt Statement
 syn keyword qtStatement emit
